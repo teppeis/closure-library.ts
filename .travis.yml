@@ -9,3 +9,5 @@ sudo: false
 cache:
   directories:
   - node_modules
+before_install:
+  - git submodule update --init
