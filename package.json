@@ -1,0 +1,27 @@
+{
+  "name": "closure-library.ts",
+  "version": "1.0.0",
+  "description": "A bridge to use Closure Library with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc --noImplicitAny --module commonjs index.ts test/test.ts && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teppeis/closure-library.ts"
+  },
+  "keywords": [
+    "closure-library",
+    "typescript"
+  ],
+  "author": "Teppei Sato <teppeis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teppeis/closure-library.ts/issues"
+  },
+  "homepage": "https://github.com/teppeis/closure-library.ts",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "typescript": "^1.4.1"
+  }
+}
