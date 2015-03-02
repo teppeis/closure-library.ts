@@ -3,6 +3,12 @@ closure-library.ts [![NPM version][npm-image]][npm-url] [![build status][travis-
 
 > A bridge to use Closure Library with TypeScript
 
+This is all-in-one package to use Closure Library from TypeScript including:
+
+* Latest Closure Library ([patched for TypeScript](https://github.com/teppeis/closure-library/tree/fix))
+* TypeScript type declaration files for Closure Library ([closure-library.d.ts](https://github.com/teppeis/closure-library.d.ts))
+* Bridge for zero config usage
+
 ## Usage
 
 ```console
