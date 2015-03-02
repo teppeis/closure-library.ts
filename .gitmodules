@@ -1,6 +1,6 @@
 [submodule "closure-library"]
 	path = closure-library
-	url = git@github.com:teppeis/closure-library.git
+	url = git://github.com/teppeis/closure-library.git
 [submodule "closure-library.d.ts"]
 	path = closure-library.d.ts
-	url = git@github.com:teppeis/closure-library.d.ts.git
+	url = git://github.com/teppeis/closure-library.d.ts.git
