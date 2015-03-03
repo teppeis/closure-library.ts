@@ -6,29 +6,34 @@ closure-library.ts [![NPM version][npm-image]][npm-url] [![build status][travis-
 This is all-in-one package to use Closure Library from TypeScript including:
 
 * Latest Closure Library ([patched for TypeScript](https://github.com/teppeis/closure-library/tree/fix))
-* TypeScript type declaration files for Closure Library ([closure-library.d.ts](https://github.com/teppeis/closure-library.d.ts))
-* Bridge for zero config usage
+* Type declaration files (d.ts) of Closure Library ([closure-library.d.ts](https://github.com/teppeis/closure-library.d.ts))
+* Bridge utility for zero config usage
 
-## Usage
+## Install
 
 ```console
 $ npm i closure-library.ts
-$ vi foo.ts
 ```
 
+## Usage
+
 ```typescript
-// Import index.ts
+// Import index.ts to load type information of Closure Library.
 import closure = require('./node_modules/closure-library.ts/index');
-// Call register() method
+// Call register() to enable `goog.requrie()`.
 closure.register();
-// then `googl.require` returns the namespace!
+// Then `googl.require` returns the namespace!
 var Queue = goog.require('goog.structs.Queue');
+// Type information of Closure Library is available in TypeScript.
 var q = new Queue<number>();
 q.enqueue(10);
 q.enqueue(20);
 q.enqueue(30);
-var n: number = q.dequeue(); // 10
+var n: number = q.dequeue(); // n = 10, ok!
+var s: string = q.dequeue(); // Error! "Type 'number' is not assignable to type 'string'."
 ```
+
+Once closure-library.ts is registered in the top of your bootstrap file, you don't have to `register()` in each dependent file.
 
 ## License
 
