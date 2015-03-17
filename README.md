@@ -1,9 +1,9 @@
 closure-library.ts [![NPM version][npm-image]][npm-url] [![build status][travis-image]][travis-url] [![Dependency Status][deps-image]][deps-url]
 ====
 
-> A bridge to use Closure Library with TypeScript
+> Closure Library for TypeScript
 
-This is all-in-one package to use Closure Library from TypeScript including:
+This is all-in-one package to use Closure Library with TypeScript including:
 
 * Latest Closure Library ([patched for TypeScript](https://github.com/teppeis/closure-library/tree/fix))
 * Type declaration files (d.ts) of Closure Library ([closure-library.d.ts](https://github.com/teppeis/closure-library.d.ts))
@@ -12,7 +12,7 @@ This is all-in-one package to use Closure Library from TypeScript including:
 ## Install
 
 ```console
-$ npm i closure-library.ts
+$ npm install closure-library.ts
 ```
 
 ## Usage

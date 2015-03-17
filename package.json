@@ -1,7 +1,7 @@
 {
   "name": "closure-library.ts",
   "version": "1.0.0",
-  "description": "A bridge to use Closure Library with TypeScript",
+  "description": "Closure Library for TypeScript",
   "main": "index.js",
   "scripts": {
     "test": "tsc --noImplicitAny --module commonjs index.ts test/test.ts && mocha"
