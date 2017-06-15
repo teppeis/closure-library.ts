@@ -1,6 +1,8 @@
 closure-library.ts [![NPM version][npm-image]][npm-url] [![build status][travis-image]][travis-url] [![Dependency Status][deps-image]][deps-url]
 ====
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/teppeis/closure-library.ts.svg)](https://greenkeeper.io/)
+
 > Closure Library for TypeScript
 
 This is all-in-one package to use Closure Library with TypeScript including:

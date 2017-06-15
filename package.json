@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/teppeis/closure-library.ts",
   "devDependencies": {
-    "mocha": "^2.1.0",
-    "typescript": "^1.4.1"
+    "mocha": "^3.4.2",
+    "typescript": "^2.3.4"
   }
 }
